@@ -595,6 +595,12 @@ hr {
 }
 
 /* Responsive */
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 50px;  /* Taille du logo pour mobile */
+        height: auto;  /* Garde le ratio de l'image */
+    }
+*
 @media (max-width:964px) {
     header .menu {
         display: none;
